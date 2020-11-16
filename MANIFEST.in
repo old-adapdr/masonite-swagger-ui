@@ -1,1 +1,18 @@
-# include src/package/some/directory/*
+# Root import
+include src/swagger_ui/*
+
+# HTML
+include src/swagger_ui/resources/templates/swaggerui.html
+include src/swagger_ui/resources/templates/oauth2-redirect.html
+
+# CSS
+include src/swagger_ui/static/css/swagger-ui.css
+
+# IMG
+include src/swagger_ui/static/img/favicon-16x16.png
+include src/swagger_ui/static/img/favicon-32x32.png
+
+# JS
+include src/swagger_ui/static/js/swagger-ui-bundle.js
+include src/swagger_ui/static/js/swagger-ui-standalone-preset.js
+include src/swagger_ui/static/js/swagger-ui.js
