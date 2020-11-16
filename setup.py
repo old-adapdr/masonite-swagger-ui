@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='masonite-swagger-ui',
-    version='0.0.1.post4',
+    version='0.0.2',
     package_dir={'': 'src/'},
     description='Swagger-UI package for Masonite',
     long_description='Swagger-UI package for Masonite',
