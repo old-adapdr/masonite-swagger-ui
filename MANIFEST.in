@@ -2,7 +2,7 @@
 include src/swagger_ui/*
 
 # HTML
-include src/swagger_ui/resources/templates/swaggerui.html
+include src/swagger_ui/resources/templates/swagger-ui.html
 include src/swagger_ui/resources/templates/oauth2-redirect.html
 
 # CSS
@@ -16,3 +16,6 @@ include src/swagger_ui/static/img/favicon-32x32.png
 include src/swagger_ui/static/js/swagger-ui-bundle.js
 include src/swagger_ui/static/js/swagger-ui-standalone-preset.js
 include src/swagger_ui/static/js/swagger-ui.js
+
+# Petshop JSON
+include src/swagger_ui/static/schemas/petshop.json

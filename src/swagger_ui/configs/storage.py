@@ -1,2 +1,2 @@
 # Adds schemas to static file storage
-STATICFILES["storage/schemas/"] = "static/"
+STATICFILES["storage/schemas"] = "static/"
