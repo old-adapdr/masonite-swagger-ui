@@ -1,21 +1,21 @@
 # Root import
-include src/swagger_ui/*
+include src/masonite_swagger_ui/*
 
 # HTML
-include src/swagger_ui/resources/templates/swagger-ui.html
-include src/swagger_ui/resources/templates/oauth2-redirect.html
+include src/masonite_swagger_ui/resources/templates/swagger-ui.html
+include src/masonite_swagger_ui/resources/templates/oauth2-redirect.html
 
 # CSS
-include src/swagger_ui/static/css/swagger-ui.css
+include src/masonite_swagger_ui/static/css/swagger-ui.css
 
 # IMG
-include src/swagger_ui/static/img/favicon-16x16.png
-include src/swagger_ui/static/img/favicon-32x32.png
+include src/masonite_swagger_ui/static/img/favicon-16x16.png
+include src/masonite_swagger_ui/static/img/favicon-32x32.png
 
 # JS
-include src/swagger_ui/static/js/swagger-ui-bundle.js
-include src/swagger_ui/static/js/swagger-ui-standalone-preset.js
-include src/swagger_ui/static/js/swagger-ui.js
+include src/masonite_swagger_ui/static/js/swagger-ui-bundle.js
+include src/masonite_swagger_ui/static/js/swagger-ui-standalone-preset.js
+include src/masonite_swagger_ui/static/js/swagger-ui.js
 
 # Petshop JSON
-include src/swagger_ui/static/schemas/petshop.json
+include src/masonite_swagger_ui/static/schemas/petshop.json

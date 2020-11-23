@@ -5,7 +5,7 @@ The intention of this package is provide an easy method to adding SwaggerUI / Op
 1. `pip3 install masonite-swagger-ui`
 2. Add the package to the providers list:
     ```py
-    from swagger_ui.providers import SwaggerUIProvider
+    from masonite_swagger_ui.providers import SwaggerUIProvider
 
     # ...
 
